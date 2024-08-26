@@ -57,13 +57,13 @@ account.print_transaction_history()
 
 
 
-Code Structure
+#Code Structure
 Classes
 
 Bank: Manages the overall banking system.
 BankAccount: Represents individual bank accounts and handles transactions.
 
-Main Functions
+#Main Functions
 
 create_connection(): Establishes a connection to the SQLite database.
 initialize_database(): Sets up the necessary tables in the database.
@@ -76,7 +76,7 @@ Bank.create_account(): Creates a new bank account.
 Bank.get_account(): Retrieves an existing account.
 Bank.list_accounts(): Displays information for all accounts.
 
-Database Schema
+#Database Schema
 Tables
 accounts: Stores account information.
 
